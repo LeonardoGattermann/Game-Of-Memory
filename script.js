@@ -34,56 +34,25 @@ let data = [
 { 
     name:'miranha',
     src: 'img/miranha.jpg'
-},{ 
-    name:'Batman',
-    src: 'img/batman.jpg'
-},
-{ 
-    name:'capitaoAmerica',
-    src: 'img/capitaozin.jpg'
-},
-{ 
-    name:'doutorestranho',
-    src: 'img/doutorestranho.jpg'
-},
-{ 
-    name:'panteranegra',
-    src: 'img/gatinhodark.jpg'
-},
-{ 
-    name:'groot',
-    src: 'img/groot.jpg'
-},
-{ 
-    name:'minihulk',
-    src: 'img/miniHulk.jpg'
-},
-{ 
-    name:'superMen',
-    src: 'img/superMen.jpg'
-},
-{ 
-    name:'thor',
-    src: 'img/thor.jpg'
-},
-{ 
-    name:'miranha',
-    src: 'img/miranha.jpg'
 }
 ]
 
 
+const screen = document.querySelector('.screentwo')
+screen.style.display = 'none'
 let lineContage = 0
+
  const line1 = document.querySelector('.line-1')
     const line2 = document.querySelector('.line-2')
     const line3 = document.querySelector('.line-3')
+
 function addCardsInScreen(arr){
    
     
     for(let i = 0;i < arr.length; i++){
         lineContage += 1
         if(lineContage < 4){
-            let createImg = document.createElement('img')
+            let createImg = document.createElement('img')   
 
             createImg.id = 'line-1'
             createImg.className = 'cards'

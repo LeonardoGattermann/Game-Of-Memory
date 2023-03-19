@@ -48,5 +48,50 @@ main{
     height: 180px;
     border-radius:20px;
 }
+header{
+  display: flex;
+  height: 4rem;
+  width: 100%;
+  background-color: transparent;
+  border-bottom: 1px solid rgb(213, 197, 139);
+  align-items: center;
+}
+.imagem{
+height: 30px;
+width: 30px;
+}
+.navigation-father{
+  display: flex;
+}
+.navigation{
+  color: beige;
+  cursor: pointer;
+  margin-right: 2rem;
+  list-style: none;
+  text-decoration: none;
+}
+.navigation:hover{
+  text-decoration: underline;
+  font-weight:lighter;
+  color: rgb(212, 197, 176);
+}
+.section-left{
+  margin-left: 3rem;
+  margin-top: 3rem;
+  border: 2px solid rgb(221, 131, 63);
+  height: 31rem;
+  width: 40rem;
+}
+section h1{
+ color:rgb(232, 222, 222) ; 
+  display: flex;
+ justify-content: center;
+}
+.apresentation-game-page1{
+  padding: 10px;
+  text-align: start;
+  color: rgb(232, 222, 222);
+}
+.apresentation-text{
 
-
+}

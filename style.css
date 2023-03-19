@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding:0;
+    background-image: url('https://static.vecteezy.com/ti/vetor-gratis/p1/13150965-fundo-laranja-com-efeito-de-triangulo-aleatorio-gratis-vetor.jpg');
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    background-image: url('https://static.vecteezy.com/ti/vetor-gratis/p1/13150965-fundo-laranja-com-efeito-de-triangulo-aleatorio-gratis-vetor.jpg');
+    margin-top: 0px;
+}
+.frame {
+    width: 80%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    height: 100vh;
+    margin-left: 20%;
+  }
+  
+  .line-1, .line-2, .line-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .cards {
+    margin: 0 10px;
+    
+  }
+  
+
+  .current-score, .best-score {
+    font-weight: bold;
+    margin-left: 5px;
+  }
+
+.cards{
+    width: 120px;
+    height: 180px;
+    border-radius:20px;
+}
+
+

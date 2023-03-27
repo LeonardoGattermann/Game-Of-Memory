@@ -6,7 +6,7 @@ body{
 
 main{
     display: flex;
-    justify-content: space-around;
+    height: 100vh;
 }
 
 .title{
@@ -16,13 +16,7 @@ main{
     margin-top: 0px;
 }
 .frame {
-    width: 80%;
-    max-width: 500px;
-    display: flex;
-    flex-direction: column;
-    margin-top: 50px;
-    height: 100vh;
-    margin-left: 20%;
+  display: flex;
   }
   
   .line-1, .line-2, .line-3 {
@@ -44,21 +38,27 @@ main{
   }
 
 .cards{
-    width: 120px;
-    height: 180px;
+    width: 6rem;
+    height: 8rem;
     border-radius:20px;
+}
+div page-1{
+  width: 100%;
 }
 header{
   display: flex;
   height: 4rem;
   width: 100%;
   background-color: transparent;
-  border-bottom: 1px solid rgb(213, 197, 139);
+  border-bottom: 1px solid rgb(253, 0, 0);
   align-items: center;
+  justify-content: space-between;
 }
 .imagem{
-height: 30px;
-width: 30px;
+  margin-left: 2rem;
+  display: flex;
+  height: 50px;
+  width: 40px;
 }
 .navigation-father{
   display: flex;
@@ -76,11 +76,20 @@ width: 30px;
   color: rgb(212, 197, 176);
 }
 .section-left{
+  flex-wrap: wrap;
   margin-left: 3rem;
   margin-top: 3rem;
   border: 2px solid rgb(221, 131, 63);
-  height: 31rem;
-  width: 40rem;
+  height: 90%;
+  width: 90%;
+}
+.section-left:hover{
+  flex-wrap: wrap;
+  margin-left: 3rem;
+  margin-top: 3rem;
+  border: 2px solid rgb(255, 4, 4);
+  height: 90%;
+  width: 90%;
 }
 section h1{
  color:rgb(232, 222, 222) ; 
@@ -88,10 +97,83 @@ section h1{
  justify-content: center;
 }
 .apresentation-game-page1{
+  flex-wrap: wrap;
   padding: 10px;
   text-align: start;
   color: rgb(232, 222, 222);
 }
-.apresentation-text{
+.section-right{
+  flex-wrap: wrap;
+  margin-left: 3rem;
+  margin-top: 3rem;
+  border: 2px solid rgb(221, 131, 63);
 
+}
+.footer-page-1{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(220, 111, 56);
+  height: 5rem;
+  width: 100%;
+  /* footer fixada no rodape */
+  bottom: 0;
+  position: absolute;
+}
+.left-footer{
+  margin: 0.5rem;
+  width: 10rem;
+  height: 3rem;
+}
+.img-footer{
+  display: block;
+  margin-left: 1.9rem;
+  align-items: center;
+  height: 3em;
+  justify-content: center;
+}
+.right-footer{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-right: 1rem;
+}
+.img-instagram{
+  height: 3rem;
+}
+main div{
+  display: flex;
+}
+.play{
+  height: 100vh;
+  width: 100vw;
+}
+a{
+  cursor: pointer;
+}
+#marcelin{
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 3rem;
+  padding: 2rem 6rem 10rem 2rem;
+  border: 2px solid black;
+  max-width: 50px;
+  margin-left: 80vw;
+  justify-content: center;
+  align-items: center;
+
+}
+.games{
+  margin-top: -18rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
+
+.page-initial{
+
+}
+
+.screen-game{
+  display: none;
 }

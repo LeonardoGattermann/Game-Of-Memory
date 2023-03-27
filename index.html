@@ -5,17 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Game Of Memory</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css " />
   </head>
   <body>
-    <div class="page-1">
+
+    <div class="page-initial">
     <header>
       <div class="imagem">
-        <img class="" src="" alt="" />
+        <img class="" src="img/jarvis.png" alt="" /> 
       </div>
+      <span>Marvel Match-up</span>
       <ol class="navigation-father">
-        <li class="navigation">Jogar agora</li>
-        <li class="navigation">Registrar-se</li>
+        <li id="play" class="navigation">Jogar agora</li>
+        <li id="registration" class="navigation">Registrar-se</li>
       </ol>
     </header>
     <section>
@@ -30,36 +32,85 @@
             
            <p class="apresentation-text">O jogo da memória é um clássico atemporal e esta versão com temas de super-heróis torna a experiência ainda mais emocionante e divertida. Experimente jogar agora e teste suas habilidades de memória com seus heróis favoritos!</p> 
             
-           
-            
         </div>
       </div>
-    </div>
+
       <footer>
-        <div></div>
-      </footer>
-    </section>
-    <div class="screentwo">
-      <head>
-        <h1 class="title">The Game Of Memory</h1>
-      </head>
-      <main>
-        <section class="frame screentwo">
-          <div class="line-1"></div>
-          <div class="line-2"></div>
-          <div class="line-3"></div>
-        </section>
-        <section class="Score screentwo">
-          <div class="screentwo">
-            <aside><h2>Score</h2></aside>
-            <aside>
-              <div>Atual:<span class="current-score"></span></div>
-              <div>Melhor:<span class="best-score"></span></div>
-            </aside>
+        <div class="footer-page-1">
+
+          <div class="left-footer">
+              <img class="img-footer" src="img/jarvis.png" alt="">
+              <span>Marvel Match-up</span>
           </div>
-        </section>
-      </main>
+          
+          <div class="right-footer">
+            <span>Creators:</span>
+            <a class="link-instagram" target="_blank" href="https://www.instagram.com/marcelorox/"><img class="img-instagram" src="img/Logo-Instagram-Png-300x300-removebg-preview.png" alt=""></a><span>Marcelo</span>
+            <a class="link-instagram" target="_blank" href="https://www.instagram.com/leonardogattermann/"><img class="img-instagram" src="img/Logo-Instagram-Png-300x300-removebg-preview.png" alt=""></a><span>Leo</span>
+          </div>
+
+        </div> 
+      </footer>
     </div>
-    <script src="script.js" defer></script>
+  
+    </section>
+
+
+
+
+
+    <div class="screen-game">
+
+      <div class="play">
+        <header>
+          <div class="imagem">
+            <img class="" src="img/jarvis.png" alt="" /> 
+          </div>
+          <ol class="navigation-father">
+            <li id="registration" class="navigation">Registrar-se</li>
+          </ol>
+        </header>
+
+          <section class="sec-games">
+
+            <div id="marcelin">
+              <h2>Points</h2>
+              <span id="pontos">0</span>
+              <span id="tempo">0</span>
+            </div>
+
+            <div class="games">
+            <h1>Game of Memory</h1>
+            <div class="board"></div>
+          </div>
+
+          </section>
+
+
+
+      <footer>
+        <div class="footer-page-1">
+
+          <div class="left-footer">
+              <img class="img-footer" src="img/jarvis.png" alt="">
+              <span>Marvel Match-up</span>
+          </div>
+          
+          <div class="right-footer">
+            <span>Creators:</span>
+            <a class="link-instagram" target="_blank" href="https://www.instagram.com/marcelorox/"><img class="img-instagram" src="img/Logo-Instagram-Png-300x300-removebg-preview.png" alt=""></a><span>Marcelo</span>
+            <a class="link-instagram" target="_blank" href="https://www.instagram.com/leonardogattermann/"><img class="img-instagram" src="img/Logo-Instagram-Png-300x300-removebg-preview.png" alt=""></a><span>Leo</span>
+          </div>
+
+        </div> 
+      </footer>
+    </div>
+
+      </div>
+
+
+
+    
   </body>
+    <script src="script.js" defer></script>
 </html>
